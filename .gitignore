@@ -131,10 +131,19 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 
+*.db
+
 # Redis
 *.rdb
 *.aof
 *.pid
+
+#jetbrains
+*.iml
+.idea
+
+
+*.lock
 
 # RabbitMQ
 mnesia/
